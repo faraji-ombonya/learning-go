@@ -36,3 +36,6 @@ go.sum
 *.log
 *.tmp
 *.pid
+
+# ignore test db
+test.db
