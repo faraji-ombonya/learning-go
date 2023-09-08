@@ -11,6 +11,6 @@ var m = map[string]Vertex{
 	"Google":    {37.42202, -122.08408},
 }
 
-func main(){
-	fmt
+func main() {
+	fmt.Println(m)
 }
