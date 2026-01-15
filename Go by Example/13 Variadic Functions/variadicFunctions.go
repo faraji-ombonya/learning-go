@@ -8,7 +8,7 @@ package main
 import "fmt"
 
 // Here is a function that will take an arbitrary number of ints as arguments.
-function sum(nums ...int) {
+func sum(nums ...int) {
 	fmt.Print(nums, " ")
 	total := 0
 	
@@ -20,7 +20,7 @@ function sum(nums ...int) {
 	fmt.Println(total)
 }
 
-function main () {
+func main () {
 	// Variadic functions can be called the usual way with individual
 	// arguments.
 	sum(1, 2)
